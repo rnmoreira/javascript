@@ -36,7 +36,11 @@ if (nome.substring(0,1)=="R" || nome.substring(0,1)=="r"){
     console.log("O nome informado não começa com a letra R")
 }
 
+<<<<<<< HEAD
 //Atividade 5//
+=======
+//Atividade 5
+>>>>>>> d0958087614e37b9589aaab826d516616a9d546d
 
 if(nome.length>=6 || nome.substring(0,1)=="E" || nome.substring(0,1)=="e"){
     console.log("Seu nome tem mais que 6 letras ou começa com a letra E")
