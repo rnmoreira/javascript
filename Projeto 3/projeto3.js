@@ -15,11 +15,13 @@ while (contador>0){
 //4- Criar um loop que conte todos os números pares de 0 a 100
 
 var contador_pares=0
+var divisores=[]
 
 for (var i=0;i<=100;i++){
     if (i%2==0){
+        divisores.push(i)
         contador_pares=contador_pares+1
     }
 }
 
-console.log(`De 0 a 100 há ${contador_pares} números pares`)
+console.log(`De 0 a 100 há ${contador_pares} números pares, são eles ${divisores}`)
